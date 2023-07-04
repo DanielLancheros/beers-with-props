@@ -4,9 +4,9 @@ body {
   padding: 2em;
 }
 
-header{
+header, h1 {
   text-align: center;
-  font-size: x-large;
+  font-size: calc(2em + 3vw);
 }
 
 main{
@@ -35,15 +35,15 @@ main{
   max-height: 500px;
 }
 
-.beer-image img {
+.beer-image, img {
   max-width: 90%;
 }
 
-.beer-card h2 {
+.beer-card, h2 {
   font-size: medium;
   margin-bottom: 4px;
 }
 
-.beer-card p {
+.beer-card, p {
   margin-top: 0;
 }
